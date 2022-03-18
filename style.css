@@ -1,0 +1,37 @@
+body{
+
+    margin: 0;
+}
+
+.image-wrapper{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-content{
+    width: 400px;
+    height: auto;
+}
+
+#player-wrapper{
+    position: fixed;
+    top: 0;
+    background: #d1d1d1a6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+lottie-player{
+    width: 400px;
+}
+#refresh{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
